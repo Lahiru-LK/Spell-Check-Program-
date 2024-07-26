@@ -10,6 +10,7 @@ def read_spellings(filename):
         exit(1)
     return misspellings
 
+
 def correct_spelling(input_filename, spell_dict):
     output_filename = 'output_' + input_filename
     try:
