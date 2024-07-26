@@ -23,6 +23,7 @@ def correct_spelling(input_filename, spell_dict):
                         punctuation = word[-1]
                         word = word[:-1]
                     lower_word = word.lower()
+                    
                     if lower_word in spell_dict:
                         corrected_word = spell_dict[lower_word]
                         if word[0].isupper():
