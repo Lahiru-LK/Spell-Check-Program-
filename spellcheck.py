@@ -10,6 +10,9 @@ def read_spellings(filename):
         exit(1)
     return misspellings
 
+
+#correct_spelling---
+
 def correct_spelling(input_filename, spell_dict):
     output_filename = 'output_' + input_filename
     try:
@@ -36,6 +39,8 @@ def correct_spelling(input_filename, spell_dict):
         print(f"Error: '{input_filename}' not found.")
         exit(1)
 
+# main------------------------------------------------------------
+
 if __name__ == '__main__':
     spell_dict_1 = read_spellings('misspellings_1.txt')
     correct_spelling('words_1.txt', spell_dict_1)
@@ -44,7 +49,7 @@ if __name__ == '__main__':
     correct_spelling('words_2.txt', spell_dict_2)
 
 
-
+# Output --------------------------------------------------
 
 
 
