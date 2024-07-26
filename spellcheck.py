@@ -4,13 +4,15 @@ def read_spellings(filename):
         with open(filename, 'r') as file:
             for line in file:
                 incorrect, correct = line.strip().split('->')
+
                 misspellings[incorrect] = correct
     except FileNotFoundError:
         print(f"Error: '{filename}' not found.")
         exit(1)
+        
     return misspellings
 
-#-------------------------------correct_spelling-----------------------------
+
 
 def correct_spelling(input_filename, spell_dict):
     output_filename = 'output_' + input_filename
@@ -24,6 +26,7 @@ def correct_spelling(input_filename, spell_dict):
                     punctuation = ''
                     if word[-1] in ',.?!':
                         punctuation = word[-1]
+                        
                         word = word[:-1]
                     lower_word = word.lower()
                     if lower_word in spell_dict:
@@ -38,6 +41,7 @@ def correct_spelling(input_filename, spell_dict):
     except FileNotFoundError:
         print(f"Error: '{input_filename}' not found.")
         exit(1)
+        
 
 # main------------------------------------------------------------
 
@@ -50,6 +54,7 @@ if __name__ == '__main__':
 
 
 # Output --------------------------------------------------
+
 
 
 
