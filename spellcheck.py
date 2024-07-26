@@ -35,6 +35,7 @@ def correct_spelling(input_filename, spell_dict):
     except FileNotFoundError:
         print(f"Error: '{input_filename}' not found.")
         exit(1)
+        
 
 if __name__ == '__main__':
     spell_dict_1 = read_spellings('misspellings_1.txt')
