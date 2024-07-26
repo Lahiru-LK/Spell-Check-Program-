@@ -3,7 +3,8 @@
 ## Project Overview 🚀
 This project implements a spell checker program inspired by Ben Dickens' Spell Check Programming . The spell checker corrects spelling errors in a given text file by referring to a dictionary of common misspellings.
 
-![image](https://github.com/user-attachments/assets/bdca08bc-3bd1-4645-b5b4-36bc1c4f6e6b)
+![image](https://github.com/user-attachments/assets/634e4a08-351a-4bca-99fc-9cb53f3e1197)
+
 
 
 ## Features ✨
