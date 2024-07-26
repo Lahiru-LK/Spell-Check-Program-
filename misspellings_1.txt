@@ -1,0 +1,9 @@
+hudnred->hundred
+fiveteen->fifteen
+datamic->dramatic
+dramati->dramatic
+elaphant->elephant
+elofent->elephant
+elaphent->elephant
+zooo->zoo
+zo->zoo
