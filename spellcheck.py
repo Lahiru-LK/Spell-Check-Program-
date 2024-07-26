@@ -49,7 +49,7 @@ if __name__ == '__main__':
     correct_spelling('words_2.txt', spell_dict_2)
 
 
-
+# Output --------------------------------------------------
 
 
 
