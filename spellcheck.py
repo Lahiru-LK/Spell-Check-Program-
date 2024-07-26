@@ -37,6 +37,7 @@ def correct_spelling(input_filename, spell_dict):
         exit(1)
 
 if __name__ == '__main__':
+    
     spell_dict_1 = read_spellings('misspellings_1.txt')
     correct_spelling('words_1.txt', spell_dict_1)
 
