@@ -38,6 +38,7 @@ def correct_spelling(input_filename, spell_dict):
     except FileNotFoundError:
         print(f"Error: '{input_filename}' not found.")
         exit(1)
+        
 
 # main------------------------------------------------------------
 
