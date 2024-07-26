@@ -1,4 +1,5 @@
 def read_spellings(filename):
+    
     misspellings = {}
     try:
         with open(filename, 'r') as file:
