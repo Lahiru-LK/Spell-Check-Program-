@@ -11,7 +11,6 @@ def read_spellings(filename):
     return misspellings
 
 
-#correct_spelling---
 
 def correct_spelling(input_filename, spell_dict):
     output_filename = 'output_' + input_filename
