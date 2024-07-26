@@ -8,6 +8,7 @@ def read_spellings(filename):
     except FileNotFoundError:
         print(f"Error: '{filename}' not found.")
         exit(1)
+        
     return misspellings
 
 def correct_spelling(input_filename, spell_dict):
