@@ -8,7 +8,6 @@ def read_spellings(filename):
 
                 misspellings[incorrect] = correct
 
-    #c
                 
     except FileNotFoundError:
         print(f"Error: '{filename}' not found.")
