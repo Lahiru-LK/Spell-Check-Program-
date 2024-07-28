@@ -7,6 +7,8 @@ def read_spellings(filename):
                 incorrect, correct = line.strip().split('->')
 
                 misspellings[incorrect] = correct
+
+    #c
                 
     except FileNotFoundError:
         print(f"Error: '{filename}' not found.")
